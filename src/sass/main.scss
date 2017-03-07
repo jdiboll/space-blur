@@ -3,3 +3,60 @@
 // Turn on freq used libraries
 // @import 'normalize-css/normalize';
 // @import 'font-awesome/scss/font-awesome';
+
+
+
+
+:root {
+	--base: #cc527a;
+	--spacing: 10px;
+	--blur: 10px;
+}
+
+
+
+
+
+
+
+body {
+	text-align: center;
+}
+
+Body {
+	background: #363636;
+	color: white;
+	font-family: 'helvetica neue', sans-serif;
+	font-weight: 100;
+	font-size: 40px;
+}
+.controls {
+	margin-bottom: 50px;
+}
+
+input {
+	width: 100px;
+}
+
+
+img {
+	height: 300px;
+	width: auto;
+	padding: var(--spacing);
+	background: var(--base);
+	filter: blur(var(--blur));
+}
+.hl {
+	color: var(--base);
+}
+
+
+
+
+
+
+
+
+
+
+
